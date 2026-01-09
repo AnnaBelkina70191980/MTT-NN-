@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt
 from ui.main_window import MainWindow
 
-# Локальные пользователи (без базы данных). Лучше было бы использовать SQL файл, но  в учебной версии pycharm нет возможности это сделать
+# Локальные пользователи (без базы данных).
 USERS = {
     "admin": {"password": "admin123", "role": "admin", "id": 1},
     "user1": {"password": "user123", "role": "user", "id": 2},
